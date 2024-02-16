@@ -139,3 +139,11 @@
     font-size: 120px;
     line-height: 120px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .card {
+        width: 660px;
+        margin-left: -150px;
+        max-width: 600px;
+    }
+}
